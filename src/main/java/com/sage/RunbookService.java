@@ -1,7 +1,10 @@
 package com.sage;
 
 import java.nio.file.*;
+
+import com.sage.models.Diagnosis;
 import org.json.*;
+
 
 public class RunbookService {
     public static String findSolution(Diagnosis diagnosis) {
