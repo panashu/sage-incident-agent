@@ -1,6 +1,6 @@
 package com.sage;
 
-import com.sage.Models.Diagnosis;
+import com.sage.models.Diagnosis;
 
 public class Analyzer {
     public static Diagnosis analyzeLogs(String logs) {
