@@ -1,5 +1,6 @@
 package com.sage;
 
+import com.sage.models.Diagnosis;
 import org.apache.http.client.methods.*;
 import org.apache.http.impl.client.*;
 import org.apache.http.entity.*;
