@@ -1,6 +1,10 @@
 package com.sage;
 
 import com.microsoft.azure.functions.*;
+import com.microsoft.azure.functions.annotation.FunctionName;
+import com.microsoft.azure.functions.annotation.TimerTrigger;
+import com.sage.models.Diagnosis;
+
 import java.util.logging.Logger;
 
 public class App {
@@ -26,7 +30,7 @@ public class App {
             IncidentServiceNowClient.createIncident(diagnosis, solution);
 
             // Step 5: Optional remediation
-            Remediator.restartPodIfNeeded(diagnosis);
+            //Remediator.restartPodIfNeeded(diagnosis);
         }
     }
 }
