@@ -6,15 +6,10 @@
   <artifactId>sage-incident-agent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-	<parent>
-		<groupId>com.abnamro.coesd</groupId>
-		<artifactId>master-pom</artifactId>
-		<version>5.1.0</version>
-	</parent>
   <properties>
-    <java.version>1.8</java.version>
-	<maven.compiler.source>1.8</maven.compiler.source>
-	<maven.compiler.target>1.8</maven.compiler.target>
+    <java.version>17</java.version>
+	<maven.compiler.source>17</maven.compiler.source>
+	<maven.compiler.target>17</maven.compiler.target>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<src.dir.main>src/main/java</src.dir.main>
 	<res.dir.main>src/main/resources</res.dir.main>
